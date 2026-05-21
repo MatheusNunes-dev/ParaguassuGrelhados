@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardápio — Paraguassu Grelhados</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../cardapio/cardapio.css">
+</head>
+
+<body id="cardapio">
+
+    <nav class="tab-nav">
+        <div class="tab-nav-inner">
+            <button class="tab-btn active" onclick="switchTab('almoco',this)"><span class="tab-icon">🍽</span>Almoço
+                Executivo</button>
+            <button class="tab-btn" onclick="switchTab('grelhados',this)"><span
+                    class="tab-icon">🔥</span>Grelhados</button>
+            <button class="tab-btn" onclick="switchTab('saladas',this)"><span class="tab-icon">🥗</span>Saladas &
+                Riz.</button>
+            <button class="tab-btn" onclick="switchTab('massas',this)"><span class="tab-icon">🍝</span>Massas</button>
+            <button class="tab-btn" onclick="switchTab('cervejas',this)"><span
+                    class="tab-icon">🍺</span>Cervejas</button>
+            <button class="tab-btn" onclick="switchTab('drinks',this)"><span class="tab-icon">🍸</span>Drinks</button>
+            <button class="tab-btn" onclick="switchTab('bebidas',this)"><span class="tab-icon">🥃</span>Bebidas</button>
+        </div>
+    </nav>
+
+    <div class="menu-wrapper">
+
+        <!-- ═══ ALMOÇO EXECUTIVO ═══════════════════════════════════════ -->
+        <section class="menu-section active" id="sec-almoco">
+
+            <div class="section-head">
+                <p class="section-tag">Terça a Sexta · Exceto Feriados</p>
+                <h2 class="section-title">Almoço Executivo</h2>
+            </div>
+
+            <div class="executivo-note">
+                <strong>Pratos Individuais</strong> — Escolha 1 carne e 3 acompanhamentos + <strong>Salada de Entrada
+                    Cortesia</strong><br>
+                Acompanhamentos disponíveis: arroz branco, arroz temperado (ovo/bacon/cebolinha), feijão, farofa,
+                maionese, spaghetti na manteiga, legumes refogados, abobrinha na brasa, berinjela na brasa, cebola na
+                manteiga, ovo frito, farofa de cebola, arroz integral, fritas.
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Pratos Individuais</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Mignon — 200g</p>
+                        </div>
+                        <p class="item-price">68,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Filé de Salmão — 200g</p>
+                        </div>
+                        <p class="item-price">69,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Filé de Linguado — 200g</p>
+                        </div>
+                        <p class="item-price">55,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Filé de Tilápia — 180g <span class="item-badge">Empanado e Frito</span>
+                            </p>
+                        </div>
+                        <p class="item-price">41,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Picanha Nobre — 200g</p>
+                        </div>
+                        <p class="item-price">69,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Bisteca de Porco — 200g</p>
+                        </div>
+                        <p class="item-price">31,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Fraldinha — 200g</p>
+                        </div>
+                        <p class="item-price">56,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Peito de Frango — 200g</p>
+                        </div>
+                        <p class="item-price">31,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Miolo de Alcatra — 200g</p>
+                        </div>
+                        <p class="item-price">55,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Vegetariano — 5 acompanhamentos</p>
+                        </div>
+                        <p class="item-price">23,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Noix — 200g</p>
+                        </div>
+                        <p class="item-price">46,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Bife de Chorizo Angus — 300g <span class="item-badge">Destaque</span>
+                            </p>
+                            <p class="item-desc">Com tomate grelhado e batatas coradas</p>
+                        </div>
+                        <p class="item-price">80,60</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Pratos Coletivos</p>
+                <div class="cat-body">
+                    <p class="section-note">Acompanha: maionese, cebola, tomate, alface, farofa, arroz branco</p>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Picanha Nobre completa — 600g</p>
+                            <p class="item-desc">2 pessoas</p>
+                        </div>
+                        <p class="item-price">233,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Bife de Chorizo Angus completo — 600g</p>
+                            <p class="item-desc">2 pessoas · 2 fatias</p>
+                        </div>
+                        <p class="item-price">191,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Fraldinha completa — 600g</p>
+                            <p class="item-desc">2 a 3 pessoas</p>
+                        </div>
+                        <p class="item-price">161,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Miolo de Alcatra completo — 600g</p>
+                            <p class="item-desc">2 pessoas</p>
+                        </div>
+                        <p class="item-price">152,60</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Noix completo — 600g</p>
+                            <p class="item-desc">2 pessoas</p>
+                        </div>
+                        <p class="item-price">129,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Filé de Peito de Frango completo — 600g</p>
+                            <p class="item-desc">2 a 3 pessoas</p>
+                        </div>
+                        <p class="item-price">93,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Risotos</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Risoto de Camarão</p>
+                        </div>
+                        <p class="item-price">63,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Risoto de Salmão com Alho Poró</p>
+                        </div>
+                        <p class="item-price">45,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Risoto de Linguiça Fresca e Tomilho</p>
+                        </div>
+                        <p class="item-price">42,60</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Risoto de Funghi</p>
+                        </div>
+                        <p class="item-price">40,60</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Risoto de Palmito e Tomate Italiano</p>
+                        </div>
+                        <p class="item-price">37,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Risoto de Abobrinha com Crocante de Bacon</p>
+                        </div>
+                        <p class="item-price">37,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Risoto de Gorgonzola</p>
+                        </div>
+                        <p class="item-price">33,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Sobremesas</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Banana Flambada</p>
+                            <p class="item-desc">Banana da terra flambada com tequila, calda de caramelo com suco de
+                                laranja e especiarias, servida com sorvete de creme</p>
+                        </div>
+                        <p class="item-price">25,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Sopa Paraguassu</p>
+                            <p class="item-desc">Calda quente de maracujá e especiarias, servido com morangos frescos e
+                                sorvete de creme</p>
+                        </div>
+                        <p class="item-price">25,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Sorvete de Creme</p>
+                            <p class="item-desc">Duas bolas com calda de goiabada, chocolate ou frutas vermelhas</p>
+                        </div>
+                        <p class="item-price">14,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Pudim de Leite Condensado</p>
+                        </div>
+                        <p class="item-price">11,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Brigadeiro de Colher</p>
+                        </div>
+                        <p class="item-price">8,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Doce de Abóbora</p>
+                        </div>
+                        <p class="item-price">8,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="motto">"A Esquina Mais Charmosa da Cidade"</p>
+        </section>
+
+        <!-- ═══ GRELHADOS ═══════════════════════════════════════════════ -->
+        <section class="menu-section" id="sec-grelhados">
+
+            <div class="section-head">
+                <p class="section-tag">Especialidade da Casa</p>
+                <h2 class="section-title">Espetinhos &amp; Grelhados</h2>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Espetinhos</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Espeto de Mignon</p>
+                        </div>
+                        <p class="item-price">31,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Espeto de Carne Completo</p>
+                            <p class="item-desc">Miolo de alcatra, bacon, tomate e cebola</p>
+                        </div>
+                        <p class="item-price">24,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Espeto de Mini Linguiça Bizinelli</p>
+                        </div>
+                        <p class="item-price">13,60</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Espeto de Queijo Coalho</p>
+                        </div>
+                        <p class="item-price">10,60</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Grelhados com Acompanhamento</p>
+                <div class="cat-body">
+                    <p class="section-note">Acompanha: maionese, cebola, tomate, farofa, alface, arroz branco</p>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Picanha Nobre completa — 600g</p>
+                        </div>
+                        <p class="item-price">233,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Bife de Chorizo Angus completo — 600g</p>
+                            <p class="item-desc">2 fatias</p>
+                        </div>
+                        <p class="item-price">191,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Fraldinha completa — 600g</p>
+                        </div>
+                        <p class="item-price">161,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Miolo de Alcatra completa — 600g</p>
+                        </div>
+                        <p class="item-price">152,60</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Noix (Contrafilé) completo — 600g</p>
+                        </div>
+                        <p class="item-price">129,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Filé de Peito de Frango completo — 600g</p>
+                        </div>
+                        <p class="item-price">93,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Bife de Chorizo Angus — 300g</p>
+                            <p class="item-desc">Com tomate grelhado e batatas coradas</p>
+                        </div>
+                        <p class="item-price">80,60</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Grelhados sem Acompanhamento</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Picanha Nobre — 300g</p>
+                        </div>
+                        <p class="item-price">101,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Medalhão com Bacon — 300g</p>
+                        </div>
+                        <p class="item-price">89,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Fraldinha — 300g</p>
+                        </div>
+                        <p class="item-price">65,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Miolo de Alcatra — 300g</p>
+                        </div>
+                        <p class="item-price">61,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Noix (Contrafilé) — 300g</p>
+                        </div>
+                        <p class="item-price">49,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Bisteca de Porco — 400g</p>
+                        </div>
+                        <p class="item-price">36,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Filé de Peito de Frango — 300g</p>
+                        </div>
+                        <p class="item-price">31,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Peixes</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Bacalhau — 280g</p>
+                            <p class="item-desc">Lombo grelhado, acompanha legumes grelhados, alho confitado, azeitonas
+                                pretas e arroz branco</p>
+                        </div>
+                        <p class="item-price">149,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Filé de Salmão — 200g</p>
+                            <p class="item-desc">Grelhado</p>
+                        </div>
+                        <p class="item-price">58,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Filé de Tilápia — 180g</p>
+                            <p class="item-desc">Empanado e frito</p>
+                        </div>
+                        <p class="item-price">30,60</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Pratos Infantis <span
+                        style="font-size:12px;font-style:normal;color:var(--text3);">— até 6 anos</span></p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Mini-hamburguinho</p>
+                            <p class="item-desc">4 mini-sanduíches com hambúrguer caseiro, queijo cheddar, picles e
+                                molho especial, acompanha batatas fritas</p>
+                        </div>
+                        <p class="item-price">31,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Bifinho</p>
+                            <p class="item-desc">50g · miolo de alcatra grelhado, arroz, feijão e fritas</p>
+                        </div>
+                        <p class="item-price">15,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Franguinho</p>
+                            <p class="item-desc">Filé de frango grelhado e spaghetti ao sugo</p>
+                        </div>
+                        <p class="item-price">12,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Ovinho</p>
+                            <p class="item-desc">Ovo frito, arroz e feijão</p>
+                        </div>
+                        <p class="item-price">10,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Arroz e Feijão</p>
+                            <p class="item-desc">Arroz branco e feijão</p>
+                        </div>
+                        <p class="item-price">8,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="motto">"A Esquina Mais Charmosa da Cidade"</p>
+        </section>
+
+        <!-- ═══ SALADAS & GUARNIÇÕES & RISOTOS ══════════════════════════ -->
+        <section class="menu-section" id="sec-saladas">
+
+            <div class="section-head">
+                <p class="section-tag">Acompanhamentos</p>
+                <h2 class="section-title">Saladas, Guarnições &amp; Risotos</h2>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Saladas</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Italiana</p>
+                            <p class="item-desc">Folhas verdes, tomate italiano, nozes, parmesão em lasca</p>
+                        </div>
+                        <p class="item-price">32,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Mista</p>
+                            <p class="item-desc">Folhas verdes, tomate, cebola e palmito</p>
+                        </div>
+                        <p class="item-price">29,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Tropical</p>
+                            <p class="item-desc">Folhas verdes, tomate, manga e morango</p>
+                        </div>
+                        <p class="item-price">29,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Salada Completa</p>
+                            <p class="item-desc">Alface, tomate, cebola, maionese</p>
+                        </div>
+                        <p class="item-price">29,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Maionese</p>
+                        </div>
+                        <p class="item-price">23,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Palmito</p>
+                        </div>
+                        <p class="item-price">13,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Agrião</p>
+                        </div>
+                        <p class="item-price">5,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Rúcula</p>
+                        </div>
+                        <p class="item-price">5,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Tomate</p>
+                        </div>
+                        <p class="item-price">5,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Alface</p>
+                        </div>
+                        <p class="item-price">5,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Cebola</p>
+                        </div>
+                        <p class="item-price">3,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Guarnições</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Legumes Coloridos Grelhados</p>
+                            <p class="item-desc">Cebola, batata, tomate, berinjela e abobrinha</p>
+                        </div>
+                        <p class="item-price">22,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Arroz Temperado</p>
+                            <p class="item-desc">Ovo, bacon e cebolinha</p>
+                        </div>
+                        <p class="item-price">17,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Arroz Integral</p>
+                        </div>
+                        <p class="item-price">15,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Farofa de Ovo</p>
+                            <p class="item-desc">Alho, bacon e dois ovos</p>
+                        </div>
+                        <p class="item-price">14,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Farofa de Cebola</p>
+                            <p class="item-desc">Farinha de mandioca branca e cebola tostada</p>
+                        </div>
+                        <p class="item-price">13,60</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Feijão</p>
+                        </div>
+                        <p class="item-price">12,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Arroz Branco</p>
+                        </div>
+                        <p class="item-price">10,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Farofa</p>
+                            <p class="item-desc">Alho e bacon</p>
+                        </div>
+                        <p class="item-price">8,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Cebola Grelhada</p>
+                        </div>
+                        <p class="item-price">6,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Tomate Grelhado</p>
+                        </div>
+                        <p class="item-price">5,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Berinjela Grelhada</p>
+                        </div>
+                        <p class="item-price">4,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Abobrinha Grelhada</p>
+                        </div>
+                        <p class="item-price">4,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Ovo Frito</p>
+                        </div>
+                        <p class="item-price">2,60</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Pão Francês Fatiado</p>
+                            <p class="item-desc">1 unidade</p>
+                        </div>
+                        <p class="item-price">2,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Risotos</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Risoto de Camarão</p>
+                        </div>
+                        <p class="item-price">63,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Risoto de Salmão com Alho Poró</p>
+                        </div>
+                        <p class="item-price">45,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Risoto de Linguiça Fresca e Tomilho</p>
+                        </div>
+                        <p class="item-price">42,60</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Risoto de Funghi</p>
+                        </div>
+                        <p class="item-price">40,60</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Risoto de Palmito e Tomate Italiano</p>
+                        </div>
+                        <p class="item-price">37,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Risoto de Abobrinha com Crocante de Bacon</p>
+                        </div>
+                        <p class="item-price">37,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Risoto de Gorgonzola</p>
+                        </div>
+                        <p class="item-price">33,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="motto">"A Esquina Mais Charmosa da Cidade"</p>
+        </section>
+
+        <!-- ═══ MASSAS ══════════════════════════════════════════════════ -->
+        <section class="menu-section" id="sec-massas">
+
+            <div class="section-head">
+                <p class="section-tag">Da Cozinha</p>
+                <h2 class="section-title">Massas &amp; Sobremesas</h2>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Massas</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Spaghetti com Camarão</p>
+                        </div>
+                        <p class="item-price">51,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Spaghetti ao Sugo</p>
+                        </div>
+                        <p class="item-price">34,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Spaghetti ao Funghi</p>
+                        </div>
+                        <p class="item-price">34,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Spaghetti ao Alho e Óleo</p>
+                        </div>
+                        <p class="item-price">27,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Spaghetti na Manteiga</p>
+                        </div>
+                        <p class="item-price">19,30</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Sobremesas</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Banana Flambada</p>
+                            <p class="item-desc">Banana da terra flambada com tequila, calda de caramelo com suco de
+                                laranja e especiarias, servida com sorvete de creme</p>
+                        </div>
+                        <p class="item-price">25,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Sopa Paraguassu</p>
+                            <p class="item-desc">Calda quente de maracujá e especiarias, servido com morangos frescos e
+                                sorvete de creme</p>
+                        </div>
+                        <p class="item-price">25,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Sorvete de Creme</p>
+                            <p class="item-desc">Duas bolas com calda de goiabada, chocolate ou frutas vermelhas</p>
+                        </div>
+                        <p class="item-price">14,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Pudim de Leite Condensado</p>
+                        </div>
+                        <p class="item-price">11,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Brigadeiro de Colher</p>
+                        </div>
+                        <p class="item-price">8,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Doce de Abóbora</p>
+                        </div>
+                        <p class="item-price">8,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="motto">"A Esquina Mais Charmosa da Cidade"</p>
+        </section>
+
+        <!-- ═══ CERVEJAS ════════════════════════════════════════════════ -->
+        <section class="menu-section" id="sec-cervejas">
+
+            <div class="section-head">
+                <p class="section-tag">Bar</p>
+                <h2 class="section-title">Cervejas</h2>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Cervejas</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Spaten 600ml</p>
+                        </div>
+                        <p class="item-price">18,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Serra Malte 600ml</p>
+                        </div>
+                        <p class="item-price">18,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Original 600ml</p>
+                        </div>
+                        <p class="item-price">18,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Budweiser Zero Lata</p>
+                        </div>
+                        <p class="item-price">10,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Malzbier Lata</p>
+                        </div>
+                        <p class="item-price">10,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Stella Artois Long Neck</p>
+                        </div>
+                        <p class="item-price">13,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Stella Artois Long Neck Sem Glúten</p>
+                        </div>
+                        <p class="item-price">13,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Budweiser Long Neck</p>
+                        </div>
+                        <p class="item-price">13,30</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-head" style="margin-top:8px;">
+                <p class="section-tag">Seleção Premium</p>
+                <h2 class="section-title" style="font-size:clamp(22px,3vw,34px);">Cervejas Especiais</h2>
+            </div>
+
+            <div class="beer-card">
+                <div class="beer-header">
+                    <div>
+                        <p class="beer-name">Patagonia Amber Lager 740ml</p>
+                        <p class="beer-style">American Amber Lager · Argentina</p>
+                    </div>
+                    <p class="beer-price">26,90</p>
+                </div>
+            </div>
+            <div class="beer-card">
+                <div class="beer-header">
+                    <div>
+                        <p class="beer-name">Patagonia Bohemian Pilsener 740ml</p>
+                        <p class="beer-style">Pilsen · Argentina</p>
+                    </div>
+                    <p class="beer-price">26,90</p>
+                </div>
+            </div>
+            <div class="beer-card">
+                <div class="beer-header">
+                    <div>
+                        <p class="beer-name">Patagonia Weisse 740ml</p>
+                        <p class="beer-style">Weisbier · Argentina</p>
+                    </div>
+                    <p class="beer-price">26,90</p>
+                </div>
+            </div>
+            <div class="beer-card">
+                <div class="beer-header">
+                    <div>
+                        <p class="beer-name">Colorado Appia 600ml</p>
+                        <p class="beer-style">Weissbier · Brasil</p>
+                    </div>
+                    <p class="beer-price">26,90</p>
+                </div>
+            </div>
+            <div class="beer-card">
+                <div class="beer-header">
+                    <div>
+                        <p class="beer-name">Colorado Ribeirão 600ml</p>
+                        <p class="beer-style">American Lager · Brasil</p>
+                    </div>
+                    <p class="beer-price">26,90</p>
+                </div>
+            </div>
+            <div class="beer-card">
+                <div class="beer-header">
+                    <div>
+                        <p class="beer-name">Leffe Blond 330ml</p>
+                        <p class="beer-style">Abadia · Belgian</p>
+                    </div>
+                    <p class="beer-price">26,90</p>
+                </div>
+            </div>
+            <div class="beer-card">
+                <div class="beer-header">
+                    <div>
+                        <p class="beer-name">Hoegaarden 330ml</p>
+                        <p class="beer-style">Witbier · Belgian</p>
+                    </div>
+                    <p class="beer-price">18,90</p>
+                </div>
+            </div>
+            <div class="beer-card">
+                <div class="beer-header">
+                    <div>
+                        <p class="beer-name">Patagônia IPA 355ml</p>
+                        <p class="beer-style">American Indian Pale Ale · Argentina</p>
+                    </div>
+                    <p class="beer-price">12,90</p>
+                </div>
+            </div>
+
+            <p class="motto">"Se Beber, Não Dirija!"</p>
+        </section>
+
+        <!-- ═══ DRINKS ══════════════════════════════════════════════════ -->
+        <section class="menu-section" id="sec-drinks">
+
+            <div class="section-head">
+                <p class="section-tag">Coquetelaria</p>
+                <h2 class="section-title">Drinks &amp; Caipirinhas</h2>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Caipirinhas</p>
+                <div class="cat-body">
+                    <p class="section-note">Com morango, maracujá ou abacaxi: acréscimo de R$ 2,00</p>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Caipira Especial de Absolut</p>
+                        </div>
+                        <p class="item-price">42,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Caipira Especial de Sagatiba Velha</p>
+                        </div>
+                        <p class="item-price">35,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Caipirissima</p>
+                            <p class="item-desc">Bacardi ou Steinheagaer</p>
+                        </div>
+                        <p class="item-price">28,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Caipiroska</p>
+                        </div>
+                        <p class="item-price">28,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Caipirinha</p>
+                        </div>
+                        <p class="item-price">25,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Saquerinha</p>
+                        </div>
+                        <p class="item-price">24,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Caipira Piradinha</p>
+                            <p class="item-desc">Circuito de caipirinhas com cachaça</p>
+                        </div>
+                        <p class="item-price">26,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Drinks</p>
+                <div class="cat-body">
+                    <div class="drinks-grid">
+                        <div class="drink-item">
+                            <p class="drink-item-name">Aperol Spritz</p>
+                            <p class="drink-item-desc">Bitter aperol, água gaseificada e espumante</p>
+                            <p class="drink-item-price">32,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Apple Spritz</p>
+                            <p class="drink-item-desc">Rum, água gaseificada, monin de maçã verde e espumante</p>
+                            <p class="drink-item-price">32,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Cosmopolitan</p>
+                            <p class="drink-item-desc">Vodka, cointreau, suco limão e xarope cranberry</p>
+                            <p class="drink-item-price">31,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Margarita</p>
+                            <p class="drink-item-desc">Tequila, cointreau, suco de limão e borda com sal</p>
+                            <p class="drink-item-price">32,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Tequila Sunrise</p>
+                            <p class="drink-item-desc">Tequila, suco de laranja e xarope granadine</p>
+                            <p class="drink-item-price">31,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Piña Colada</p>
+                            <p class="drink-item-desc">Rum, leite condensado, leite de coco e suco de abacaxi</p>
+                            <p class="drink-item-price">33,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Kir Royale</p>
+                            <p class="drink-item-desc">Licor de cassis, espumante brut e cereja</p>
+                            <p class="drink-item-price">29,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Mojito</p>
+                            <p class="drink-item-desc">Rum branco, açúcar, hortelã, limão e água gaseificada</p>
+                            <p class="drink-item-price">25,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Gin Tônica</p>
+                            <p class="drink-item-desc">Gin, água tônica e rodelas de limão · Tanqueray: R$39,90</p>
+                            <p class="drink-item-price">27,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Gin Frutas Vermelhas</p>
+                            <p class="drink-item-desc">Gin tônica c/calda de frutas vermelhas e alecrim</p>
+                            <p class="drink-item-price">29,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Gin Cítrico</p>
+                            <p class="drink-item-desc">Gin tônica c/limão, laranja e hortelã</p>
+                            <p class="drink-item-price">29,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Negroni</p>
+                            <p class="drink-item-desc">Campari, vermut rosso, gin e rodelas de laranja</p>
+                            <p class="drink-item-price">29,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Caipira de Vinho</p>
+                            <p class="drink-item-desc">Vinho, limão e açúcar</p>
+                            <p class="drink-item-price">25,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Café Gelado</p>
+                            <p class="drink-item-desc">Expresso gelado, cachaça, Amarula e pitada de noz moscada</p>
+                            <p class="drink-item-price">29,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Ballon</p>
+                            <p class="drink-item-desc">Licor 43, suco de limão e água gaseificada</p>
+                            <p class="drink-item-price">29,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Tequila Tropical</p>
+                            <p class="drink-item-desc">Tequila, abacaxi, hortelã e açúcar</p>
+                            <p class="drink-item-price">27,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Hanky Panky</p>
+                            <p class="drink-item-desc">Gin, vermute rosso e undemberg</p>
+                            <p class="drink-item-price">28,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Pele Vermelha</p>
+                            <p class="drink-item-desc">Cachaça, frutas vermelhas e suco de limão</p>
+                            <p class="drink-item-price">27,90</p>
+                        </div>
+                        <div class="drink-item">
+                            <p class="drink-item-name">Skipper</p>
+                            <p class="drink-item-desc">Whisky, suco de laranja e xarope granadine</p>
+                            <p class="drink-item-price">29,90</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="motto">"A Esquina Mais Charmosa da Cidade"</p>
+        </section>
+
+        <!-- ═══ BEBIDAS ══════════════════════════════════════════════════ -->
+        <section class="menu-section" id="sec-bebidas">
+
+            <div class="section-head">
+                <p class="section-tag">Bar</p>
+                <h2 class="section-title">Bebidas</h2>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Cachaças</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">51 Única</p>
+                        </div>
+                        <p class="item-price">26,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">51 Singular</p>
+                        </div>
+                        <p class="item-price">26,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">51 Rara</p>
+                        </div>
+                        <p class="item-price">26,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Sagatiba Velha</p>
+                        </div>
+                        <p class="item-price">12,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Seleta</p>
+                        </div>
+                        <p class="item-price">8,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Boazinha</p>
+                        </div>
+                        <p class="item-price">8,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Salinas</p>
+                        </div>
+                        <p class="item-price">8,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Piracaia</p>
+                        </div>
+                        <p class="item-price">8,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">51 Mel</p>
+                        </div>
+                        <p class="item-price">6,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Whiskies</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Johnnie Walker Black Label</p>
+                        </div>
+                        <p class="item-price">25,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Jack Daniels</p>
+                        </div>
+                        <p class="item-price">23,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Chivas</p>
+                        </div>
+                        <p class="item-price">22,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Johnnie Walker Red Label</p>
+                        </div>
+                        <p class="item-price">19,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Black &amp; White</p>
+                        </div>
+                        <p class="item-price">19,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Outros Destilados</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Gin Tanqueray</p>
+                        </div>
+                        <p class="item-price">31,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Havana 7 Anos</p>
+                        </div>
+                        <p class="item-price">29,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Tequila Prata</p>
+                        </div>
+                        <p class="item-price">28,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Absolut</p>
+                        </div>
+                        <p class="item-price">16,60</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Smirnoff</p>
+                        </div>
+                        <p class="item-price">9,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Gin Seagers</p>
+                        </div>
+                        <p class="item-price">9,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Baccardi Carta Blanca</p>
+                        </div>
+                        <p class="item-price">9,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Steinheagaer</p>
+                        </div>
+                        <p class="item-price">9,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Digestivos e Licores</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Drambuie</p>
+                        </div>
+                        <p class="item-price">28,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Licor 43</p>
+                        </div>
+                        <p class="item-price">25,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Cointreau</p>
+                        </div>
+                        <p class="item-price">23,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Frangelico</p>
+                        </div>
+                        <p class="item-price">23,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Jagermeister</p>
+                        </div>
+                        <p class="item-price">21,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Undenberg</p>
+                        </div>
+                        <p class="item-price">16,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Amarula</p>
+                        </div>
+                        <p class="item-price">18,60</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Vinho do Porto Messias</p>
+                        </div>
+                        <p class="item-price">13,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Campari</p>
+                        </div>
+                        <p class="item-price">10,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Taças</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Taça de Espumante Brut 200ml</p>
+                        </div>
+                        <p class="item-price">19,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Taça de Vinho Tinto Seco 200ml</p>
+                        </div>
+                        <p class="item-price">12,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Sucos &amp; Águas</p>
+                <div class="cat-body">
+                    <p class="section-note">Com leite ou leite condensado: acréscimo de R$ 2,00</p>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Soda Italiana Maçã Verde</p>
+                        </div>
+                        <p class="item-price">12,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Soda Italiana Frutas Vermelhas</p>
+                        </div>
+                        <p class="item-price">12,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Suco Laranja</p>
+                        </div>
+                        <p class="item-price">9,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Limonada Suíça</p>
+                        </div>
+                        <p class="item-price">9,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Suco de Abacaxi</p>
+                        </div>
+                        <p class="item-price">9,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Suco de Manga</p>
+                        </div>
+                        <p class="item-price">9,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Suco de Maracujá</p>
+                        </div>
+                        <p class="item-price">9,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Suco de Morango</p>
+                        </div>
+                        <p class="item-price">9,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">H2OH Limão</p>
+                        </div>
+                        <p class="item-price">10,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Água sem Gás</p>
+                        </div>
+                        <p class="item-price">5,60</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Água com Gás</p>
+                        </div>
+                        <p class="item-price">5,60</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Refrigerantes</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Pepsi</p>
+                        </div>
+                        <p class="item-price">7,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Pepsi Light</p>
+                        </div>
+                        <p class="item-price">7,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Pepsi Twist</p>
+                        </div>
+                        <p class="item-price">7,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Guaraná</p>
+                        </div>
+                        <p class="item-price">7,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Guaraná Diet</p>
+                        </div>
+                        <p class="item-price">7,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Soda Limonada</p>
+                        </div>
+                        <p class="item-price">7,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Tônica</p>
+                        </div>
+                        <p class="item-price">7,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Tônica Diet</p>
+                        </div>
+                        <p class="item-price">7,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Sukita</p>
+                        </div>
+                        <p class="item-price">7,90</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Red Bull Energético</p>
+                        </div>
+                        <p class="item-price">17,90</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cat-block">
+                <p class="cat-title">Cafés &amp; Chás</p>
+                <div class="cat-body">
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Café Expresso com Leite</p>
+                        </div>
+                        <p class="item-price">7,30</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Café Expresso</p>
+                        </div>
+                        <p class="item-price">6,60</p>
+                    </div>
+                    <div class="item">
+                        <div class="item-left">
+                            <p class="item-name">Chá</p>
+                        </div>
+                        <p class="item-price">5,30</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="motto">"Se Beber, Não Dirija!"</p>
+        </section>
+
+    </div>
+
+    <script src="js/cardapio.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Paraguassu Grelhados — Restaurante no Juvevê, Curitiba | Carnes & Bar</title>
+    <meta name="description"
+        content="Restaurante especializado em grelhados no bairro Juvevê, Curitiba. Carnes selecionadas na brasa, cervejas especiais e ambiente aconchegante. Reserve sua mesa: (41) 3029-1020." />
+    <meta name="keywords"
+        content="restaurante Juvevê, grelhados Curitiba, churrasco Juvevê, restaurante Curitiba, picanha Curitiba, fraldinha, carnes na brasa, bar Juvevê, almoço executivo Curitiba, Paraguassu Grelhados" />
+
+    <!-- Autor e robots -->
+    <meta name="author" content="Paraguassu Grelhados" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+    <!-- URL canônica — substitua pelo domínio real -->
+    <link rel="canonical" href="https://www.paraguassugrelhados.com.br/" />
+
+    <!-- ═══════════════════════════════════════════════════════
+         GEO — ajuda buscas locais
+    ════════════════════════════════════════════════════════ -->
+    <meta name="geo.region" content="BR-PR" />
+    <meta name="geo.placename" content="Curitiba, Paraná, Brasil" />
+    <meta name="geo.position" content="-25.4106;-49.2682" />
+    <meta name="ICBM" content="-25.4106, -49.2682" />
+
+    <!-- ═══════════════════════════════════════════════════════
+         OPEN GRAPH — WhatsApp, Faacebook, LinkedIn
+    ════════════════════════════════════════════════════════ -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:site_name" content="Paraguassu Grelhados" />
+    <meta property="og:title" content="Paraguassu Grelhados — Grelhados & Bar no Juvevê, Curitiba" />
+    <meta property="og:description"
+        content="Carnes selecionadas na brasa, cervejas especiais e um ambiente aconchegante no coração do Juvevê. Reserve agora: (41) 3029-1020." />
+    <meta property="og:url" content="https://www.paraguassugrelhados.com.br/" />
+    <meta property="og:image" content="https://www.paraguassugrelhados.com.br/imagens/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Carnes grelhadas na brasa do Paraguassu Grelhados em Curitiba" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Dados específicos de restaurante para Facebook -->
+    <meta property="restaurant:contact_info:street_address" content="Rua Machado de Assis, 525" />
+    <meta property="restaurant:contact_info:locality" content="Juvevê" />
+    <meta property="restaurant:contact_info:region" content="Curitiba, PR" />
+    <meta property="restaurant:contact_info:country_name" content="Brasil" />
+    <meta property="restaurant:contact_info:phone_number" content="+55 41 3029-1020" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+
+    <!-- Preload da imagem hero (LCP) — troque pelo nome real -->
+    <link rel="preload" as="image" href="imagens/foto_ambiente_1.webp" fetchpriority="high" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- ═══════════════════════════════════════════════════════
+         SCHEMA.ORG — Dados Estruturados JSON-LD
+         Google usa isso para rich results: horários, avaliações,
+         cardápio, endereço no Google Maps etc.
+    ════════════════════════════════════════════════════════ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.paraguassugrelhados.com.br/#restaurant",
+      "name": "Paraguassu Grelhados",
+      "alternateName": "Paraguassu",
+      "description": "Restaurante especializado em grelhados e carnes na brasa no bairro Juvevê, Curitiba. Ambiente aconchegante, cervejas especiais e atendimento personalizado.",
+      "url": "https://www.paraguassugrelhados.com.br/",
+      "logo": "https://www.paraguassugrelhados.com.br/imagens/logo.png",
+      "image": [
+        "https://www.paraguassugrelhados.com.br/imagens/og-image.jpg",
+        "https://www.paraguassugrelhados.com.br/imagens/foto_ambiente_1.webp",
+        "https://www.paraguassugrelhados.com.br/imagens/foto_prato_2.jpg"
+      ],
+      "telephone": "+55-41-3029-1020",
+      "email": "contato@paraguassugrelhados.com.br",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Machado de Assis, 525",
+        "addressLocality": "Curitiba",
+        "addressRegion": "PR",
+        "postalCode": "80035-010",
+        "addressCountry": "BR",
+        "description": "Bairro Juvevê"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -25.4106,
+        "longitude": -49.2682
+      },
+      "hasMap": "https://maps.google.com/?q=Rua+Machado+de+Assis,525,Juvevê,Curitiba",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "11:30",
+          "closes": "15:00",
+          "description": "Almoço"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday","Sunday"],
+          "opens": "11:30",
+          "closes": "16:00",
+          "description": "Almoço — Sábado, Domingo e Feriados"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "18:00",
+          "closes": "23:00",
+          "description": "Jantar"
+        }
+      ],
+      "servesCuisine": ["Brasileira","Grelhados","Carnes na Brasa","Bar"],
+      "priceRange": "$$",
+      "currenciesAccepted": "BRL",
+      "paymentAccepted": "Dinheiro, Cartão de Crédito, Cartão de Débito, PIX",
+      "menu": "https://www.paraguassugrelhados.com.br/cardapio/",
+      "hasMenu": {
+        "@type": "Menu",
+        "name": "Cardápio Paraguassu Grelhados",
+        "url": "https://www.paraguassugrelhados.com.br/cardapio/",
+        "hasMenuSection": [
+          {
+            "@type": "MenuSection",
+            "name": "Grelhados",
+            "description": "Carnes selecionadas grelhadas na brasa: picanha, fraldinha, mignon, contrafilé e muito mais."
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Almoço Executivo",
+            "description": "Prato completo com carne, 3 acompanhamentos e salada de entrada cortesia. Disponível de terça a sexta."
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Cervejas Especiais",
+            "description": "Seleção de cervejas artesanais nacionais e importadas."
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Drinks e Caipirinhas",
+            "description": "Coquetéis artesanais, caipirinhas e drinques especiais."
+          }
+        ]
+      },
+      "sameAs": [
+        "https://www.instagram.com/paraguassugrelhados/",
+        "https://www.facebook.com/ParaguassuGrelhados/"
+      ],
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Néia Zucoloto"
+        },
+        {
+          "@type": "Person",
+          "name": "Silvana Villafranca"
+        }
+      ],
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Estacionamento próximo", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Aceita reservas", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Ambiente familiar", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Bar", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Área para eventos privados", "value": true }
+      ]
+    }
+    </script>
+
+    <!-- BreadcrumbList — ajuda o Google exibir trilha de navegação nos resultados -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://www.paraguassugrelhados.com.br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Cardápio",
+          "item": "https://www.paraguassugrelhados.com.br/#cardapio"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reservas",
+          "item": "https://www.paraguassugrelhados.com.br/#reservas"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Contato",
+          "item": "https://www.paraguassugrelhados.com.br/#contato"
+        }
+      ]
+    }
+    </script>
+
+    <!-- FAQ Schema — aparece como rich snippet no Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual o horário de funcionamento do Paraguassu Grelhados?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almoço: terça a sexta das 11h30 às 15h00; sábado, domingo e feriados das 11h30 às 16h00. Jantar: terça a sexta das 18h00 às 23h00."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como fazer uma reserva no Paraguassu Grelhados?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Você pode reservar pelo telefone (41) 3029-1020 ou pelo WhatsApp. Atendemos de terça a domingo das 09h às 16h."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Onde fica o Paraguassu Grelhados?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Estamos localizados na Rua Machado de Assis, 525, no bairro Juvevê, em Curitiba — PR."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Paraguassu Grelhados tem almoço executivo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim! Oferecemos almoço executivo de terça a sexta (exceto feriados), com escolha de 1 carne, 3 acompanhamentos e salada de entrada cortesia."
+          }
+        }
+      ]
+    }
+    </script>
+
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div class="nav-logo">
+            <img src="imagens/logo.png" alt="Paraguassu Grelhados — Restaurante no Juvevê, Curitiba"
+                class="nav-logo-img" loading="eager" />
+        </div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="#reservas">Reservas</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <button class="hamburger" onclick="toggleMenu()" aria-label="Abrir menu de navegação">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu" role="navigation" aria-label="Menu mobile">
+        <button class="mobile-close" onclick="toggleMenu()" aria-label="Fechar menu">✕</button>
+        <a href="#inicio" onclick="toggleMenu()">Início</a>
+        <a href="#sobre" onclick="toggleMenu()">Sobre</a>
+        <a href="#cardapio" onclick="toggleMenu()">Cardápio</a>
+        <a href="#galeria" onclick="toggleMenu()">Galeria</a>
+        <a href="#reservas" onclick="toggleMenu()">Reservas</a>
+        <a href="#contato" onclick="toggleMenu()">Contato</a>
+    </div>
+
+    <!-- HERO -->
+    <section id="inicio" aria-label="Apresentação do restaurante">
+        <div class="hero-bg" role="img" aria-label="Carnes grelhadas na brasa do Paraguassu Grelhados"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">Restaurante &amp; Bar · Juvevê, Curitiba</p>
+            <h1 class="hero-title">Uma experiência de sabores para você</h1>
+            <p class="hero-sub">Pratos preparados com capricho pelas chefs e proprietárias Néia Zucoloto e Silvana
+                Villafranca.</p>
+            <div class="hero-btns">
+                <button class="btn-primary"
+                    onclick="document.getElementById('cardapio').scrollIntoView({behavior:'smooth'})">
+                    Ver Cardápio
+                </button>
+                <button class="btn-outline"
+                    onclick="document.getElementById('reservas').scrollIntoView({behavior:'smooth'})">
+                    Fazer Reserva
+                </button>
+            </div>
+        </div>
+        <div class="scroll-hint" aria-hidden="true">
+            <div class="scroll-mouse"></div>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" aria-label="Sobre o Paraguassu Grelhados">
+        <p class="section-tag reveal">Sobre Nós</p>
+        <h2 class="section-title reveal">Tradição e sabor no<br>coração do Juvevê</h2>
+        <p class="section-subtitle reveal">Descubra porque o Paraguassu Grelhados se destaca há tanto tempo em Curitiba.
+            Situado em uma rua tranquila do tradicional bairro do Juvevê, o restaurante recebe famílias e amigos em um
+            ambiente descontraído, acolhedor e cheio de sabor.</p>
+        <div class="sobre-grid">
+            <div class="feature-card reveal">
+                <div class="feature-icon" aria-hidden="true">🔥</div>
+                <div class="feature-title">Carnes Especiais</div>
+                <p class="feature-text">Cortes selecionados e preparados na brasa com técnica e dedicação.</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon" aria-hidden="true">🏠</div>
+                <div class="feature-title">Ambiente Aconchegante</div>
+                <p class="feature-text">Espaço acolhedor e descontraído para reunir família e amigos.</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon" aria-hidden="true">🍺</div>
+                <div class="feature-title">Cervejas Especiais</div>
+                <p class="feature-text">Seleção de cervejas nacionais e importadas para todos os gostos.</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon" aria-hidden="true">⭐</div>
+                <div class="feature-title">Atendimento de Qualidade</div>
+                <p class="feature-text">Equipe atenciosa e dedicada a proporcionar a melhor experiência.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section id="galeria" aria-label="Galeria de fotos do Paraguassu Grelhados">
+        <p class="section-tag reveal">Galeria</p>
+        <h2 class="section-title reveal">Nosso Espaço &amp; Sabores</h2>
+        <div class="gallery-grid" style="margin-top:48px;">
+            <div class="gallery-item reveal">
+                <div class="gallery-ph">
+                    <img src="imagens/paraguassu_grelhados_fachada_0101.jpg"
+                        alt="Fachada do Paraguassu Grelhados na Rua Machado de Assis, Juvevê, Curitiba" width="600"
+                        height="400" loading="lazy" />
+                </div>
+            </div>
+            <div class="gallery-item reveal" onclick="openLightbox(this)">
+                <div class="gallery-ph">
+                    <img src="imagens/foto_ambiente_2.jpg"
+                        alt="Ambiente interno do Paraguassu Grelhados — mesas e decoração aconchegante" width="600"
+                        height="400" loading="lazy" />
+                </div>
+            </div>
+            <div class="gallery-item reveal" onclick="openLightbox(this)">
+                <div class="gallery-ph">
+                    <img src="imagens/foto_ambiente_1.webp" alt="Salão do restaurante Paraguassu Grelhados em Curitiba"
+                        width="600" height="400" loading="lazy" />
+                </div>
+            </div>
+            <div class="gallery-item reveal" onclick="openLightbox(this)">
+                <div class="gallery-ph">
+                    <img src="imagens/foto_prato_2.jpg" alt="Picanha na brasa servida no Paraguassu Grelhados"
+                        width="600" height="400" loading="lazy" />
+                </div>
+            </div>
+            <div class="gallery-item reveal" onclick="openLightbox(this)">
+                <div class="gallery-ph">
+                    <img src="imagens/foto_prato_3.jpg"
+                        alt="Prato de grelhados especiais do Paraguassu — fraldinha e acompanhamentos" width="600"
+                        height="400" loading="lazy" />
+                </div>
+            </div>
+            <div class="gallery-item reveal" onclick="openLightbox(this)">
+                <div class="gallery-ph">
+                    <img src="imagens/paraguassu_grelhados_005.jpg"
+                        alt="Detalhe da brasa e grelha do Paraguassu Grelhados em Curitiba" width="600" height="400"
+                        loading="lazy" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARDÁPIO -->
+    <section id="cardapio" aria-label="Cardápio do Paraguassu Grelhados">
+    </section>
+
+    <!-- RESERVAS -->
+    <section id="reservas" aria-label="Reservas no Paraguassu Grelhados">
+        <p class="section-tag reveal">Reservas</p>
+        <h2 class="section-title reveal">Reserve sua Mesa</h2>
+        <p class="section-subtitle reveal">
+            Atendimento personalizado para almoços, jantares e eventos especiais.
+        </p>
+        <div class="reservas-wrapper reveal">
+
+            <div class="reserva-card">
+                <div class="reserva-icon" aria-hidden="true">🍽️</div>
+                <h3>Reservas para Almoço</h3>
+                <p>Faça sua reserva com antecedência e garanta sua mesa no Paraguassu Grelhados.</p>
+                <div class="reserva-info">
+                    <span>📞 (41) 3029-1020</span>
+                    <span>🕐 Terça a Domingo · 09h às 16h</span>
+                </div>
+                <a href="https://wa.me/554130291020" target="_blank" rel="noopener noreferrer" class="whatsapp-btn"
+                    aria-label="Reservar mesa no Paraguassu Grelhados pelo WhatsApp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="currentColor" aria-hidden="true">
+                        <path
+                            d="M20.52 3.48A11.79 11.79 0 0012.04 0C5.5 0 .16 5.34.16 11.88c0 2.09.55 4.13 1.59 5.92L0 24l6.39-1.67a11.9 11.9 0 005.65 1.44h.01c6.54 0 11.88-5.34 11.88-11.88 0-3.17-1.23-6.14-3.41-8.41z" />
+                    </svg>
+                    Reservar pelo WhatsApp
+                </a>
+            </div>
+
+            <div class="reserva-card">
+                <div class="reserva-icon" aria-hidden="true">✨</div>
+                <h3>Eventos Privados</h3>
+                <p>Celebre aniversários, encontros e ocasiões especiais em um ambiente acolhedor e sofisticado.</p>
+                <div class="evento-highlight">
+                    Experiências personalizadas para tornar seu evento memorável.
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" aria-label="Informações de contato e localização">
+        <p class="section-tag reveal">Contato</p>
+        <h2 class="section-title reveal">Venha nos Visitar</h2>
+        <div class="contato-grid" style="margin-top:56px;">
+
+            <div class="contato-card reveal">
+                <div class="contato-icon" aria-hidden="true">📍</div>
+                <h3 class="contato-title">Endereço</h3>
+                <address class="contato-text" style="font-style:normal;">
+                    Rua Machado de Assis, 525<br>
+                    Juvevê — Curitiba, PR
+                </address>
+            </div>
+
+            <div class="contato-card reveal">
+                <div class="contato-icon" aria-hidden="true">🕐</div>
+                <h3 class="contato-title">Horários</h3>
+                <p class="contato-text">
+                    <strong>Almoço</strong><br>
+                    Ter a Sex: 11:30 – 15:00<br>
+                    Sáb, Dom e Feriados: 11:30 – 16:00<br><br>
+                    <strong>Jantar</strong><br>
+                    Ter a Sex: 18:00 – 23:00
+                </p>
+            </div>
+
+            <div class="contato-card reveal">
+                <div class="contato-icon" aria-hidden="true">📞</div>
+                <h3 class="contato-title">Telefone</h3>
+                <p class="contato-text">
+                    <a href="tel:+554130291020" style="color:inherit;text-decoration:none;">(41) 3029-1020</a>
+                </p>
+                <div class="social-row">
+                    <a href="https://www.instagram.com/paraguassugrelhados/" class="social-btn"
+                        title="Instagram do Paraguassu Grelhados" target="_blank" rel="noopener noreferrer"
+                        aria-label="Instagram do Paraguassu Grelhados">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8" aria-hidden="true">
+                            <rect x="2" y="2" width="20" height="20" rx="5" />
+                            <circle cx="12" cy="12" r="4" />
+                            <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/ParaguassuGrelhados/photos/?locale=pt_BR" class="social-btn"
+                        title="Facebook do Paraguassu Grelhados" target="_blank" rel="noopener noreferrer"
+                        aria-label="Facebook do Paraguassu Grelhados">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8" aria-hidden="true">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/554130291020" class="social-btn" title="WhatsApp do Paraguassu Grelhados"
+                        target="_blank" rel="noopener noreferrer" aria-label="WhatsApp do Paraguassu Grelhados">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8" aria-hidden="true">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-logo-name">Paraguassu</div>
+        <div class="footer-logo-sub">Grelhados</div>
+        <p class="footer-copy">© 2026 Paraguassu Grelhados · Rua Machado de Assis, 525 · Juvevê, Curitiba – PR</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="cardapio/cardapio.js"></script>
+
+</body>
+
+</html>
