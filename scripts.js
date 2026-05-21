@@ -1,4 +1,4 @@
-fetch("cardapio/cardapio.html")
+fetch("./cardapio/cardapio.html")
     .then(response => response.text())
     .then(data => {
       document.getElementById("cardapio").innerHTML = data;
